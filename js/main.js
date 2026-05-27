@@ -221,8 +221,162 @@ let empleados = [
     {
         gafete: "7776900",
         nombre: "GUSTAVO TORRENTES SOLORZANO"
-    }
+    },
 
+    {
+    gafete: "9073763",
+    nombre: "FRANKLIN MONTIEL ARGUEDAS"
+},
+
+{
+    gafete: "7771878",
+    nombre: "JEFFERSON CEDEÑO VARGAS"
+},
+
+{
+    gafete: "7776940",
+    nombre: "JUAN CARLOS ROJAS QUESADA"
+},
+
+{
+    gafete: "7782507",
+    nombre: "JESSICA MARIA ALPIZAR SOLIS"
+},
+
+{
+    gafete: "8305203",
+    nombre: "JOSE MORA BRENES"
+},
+
+{
+    gafete: "7770109",
+    nombre: "CARLOS FRANCISCO LOPEZ ARRIETA"
+},
+
+{
+    gafete: "8924268",
+    nombre: "FELIX FLOTES MONTANO"
+},
+
+{
+    gafete: "8948086",
+    nombre: "IRIS LISSETH CHACON NOINDICAOTRO"
+},
+
+{
+    gafete: "7777455",
+    nombre: "JORBIN PEREZ POMARES"
+},
+
+{
+    gafete: "7784925",
+    nombre: "JUAN GABRIEL HERNANDEZ RIVERA"
+},
+
+{
+    gafete: "9076159",
+    nombre: "ANTHONY DAVID MORA CHINCHILLA"
+},
+
+{
+    gafete: "8972769",
+    nombre: "CARLOS ALBERTO GARCIA VARGAS"
+},
+
+{
+    gafete: "8986687",
+    nombre: "DAVID MANUEL JAEN SANCHEZ"
+},
+
+{
+    gafete: "9008904",
+    nombre: "JESSICA BARQUERO QUIROS"
+},
+
+{
+    gafete: "9045350",
+    nombre: "JULIO JOSE LOPEZ MURILLO"
+},
+
+{
+    gafete: "9075422",
+    nombre: "ALEXANDER CRUZ SALGUERA"
+},
+
+{
+    gafete: "9043320",
+    nombre: "FRANKLING JAVIER CAMPOS NOINDICAOTRO"
+},
+
+{
+    gafete: "9050506",
+    nombre: "MALENA AMAYA RODRIGUEZ"
+},
+
+{
+    gafete: "9052884",
+    nombre: "MARIBEL DAYANA LUQUEZ PALACIO"
+},
+
+{
+    gafete: "9076141",
+    nombre: "NAZARETH ZIDANE MAYORQUÍN JIMÉNEZ"
+},
+
+{
+    gafete: "9054238",
+    nombre: "JOSÉ ANDRÉS GONZÁLEZ GONZÁLEZ"
+},
+
+{
+    gafete: "9054258",
+    nombre: "TANIA YULIETH HUERTA HERNÁNDEZ"
+},
+
+{
+    gafete: "9055539",
+    nombre: "MARIA VANESSA AVALOS MORALES"
+},
+
+{
+    gafete: "9055543",
+    nombre: "ALISON DANIELA RUIZ JIMENEZ"
+},
+
+{
+    gafete: "9076778",
+    nombre: "JOSE EDUARDO COLE WESLEY"
+},
+
+{
+    gafete: "9066246",
+    nombre: "LUIS MANUEL IZAGUIRRE HERNANDEZ"
+},
+
+{
+    gafete: "9066297",
+    nombre: "CRISTOPHER ANDRÉS GUELL GONZÁLEZ"
+},
+
+{
+    gafete: "9067533",
+    nombre: "FRANK DANIEL LOSADA GONZÁLEZ"
+},
+
+{
+    gafete: "9068409",
+    nombre: "LIRIBET MONTOYA FERNÁNDEZ"
+},
+
+{
+    gafete: "9069397",
+    nombre: "ELIAM JOSUE RAMIREZ LUNA"
+},
+
+{
+    gafete: "9069051",
+    nombre: "HAZZLER EMMANUEL PINEDA CABRERA"
+}
 ];
 
 const empleadosGuardados =
@@ -254,9 +408,16 @@ actualizarTabla();
 
 btnSalida.addEventListener("click", () => {
 
-    const gafeteIngresado = document
+    let gafeteIngresado = document
         .getElementById("gafeteEmpleado")
         .value;
+
+    if (gafeteIngresado.startsWith("0")) {
+
+    gafeteIngresado =
+        gafeteIngresado.substring(1);
+    }
+
     if (gafeteIngresado.trim() === "") {
         alert("Debe ingresar un gafete");
         return;
@@ -342,9 +503,15 @@ btnSalida.addEventListener("click", () => {
 
 btnEntrada.addEventListener("click", () => {
 
-    const gafeteIngresado = document
+    let gafeteIngresado = document
         .getElementById("gafeteEmpleado")
         .value;
+
+    if (gafeteIngresado.startsWith("0")) {
+
+    gafeteIngresado =
+        gafeteIngresado.substring(1);
+    }
 
     // Validar vacío
     if (gafeteIngresado.trim() === "") {
