@@ -971,41 +971,138 @@ function guardarLocalStorage() {
 
 }
 
-btnExportar.addEventListener("click", () => {
-    // Validar si hay registros
+btnExportar.addEventListener("click", async () => {
+
     if (registros.length === 0) {
         alert("No hay registros para exportar");
         return;
     }
 
-    // Crear arreglo limpio
-    const datosExcel = registros.map(registro => ({
-
-        Gafete: registro.gafete,
-        Nombre: registro.nombre,
-        "Hora de salida": registro.salida,
-        "Hora de entrada": registro.entrada,
-        "Tiempo total": registro.tiempoTotal
-
-    }));
+    // Crear libro
+    const workbook = new ExcelJS.Workbook();
 
     // Crear hoja
-    const hoja = XLSX.utils.json_to_sheet(datosExcel);
+    const worksheet = workbook.addWorksheet("Tiempos Comida");
 
-    // Crear libro
-    const libro = XLSX.utils.book_new();
+    // Encabezados
+    worksheet.columns = [
 
-    // Agregar hoja
-    XLSX.utils.book_append_sheet(
-        libro,
-        hoja,
-        "Tiempos Comida"
-    );
+        { header: "Gafete", key: "gafete", width: 18 },
+
+        { header: "Nombre", key: "nombre", width: 45 },
+
+        { header: "Hora de salida", key: "salida", width: 20 },
+
+        { header: "Hora de entrada", key: "entrada", width: 20 },
+
+        { header: "Tiempo total", key: "tiempoTotal", width: 18 }
+
+    ];
+
+    // Agregar registros
+    registros.forEach(registro => {
+
+        worksheet.addRow({
+
+            gafete: registro.gafete,
+            nombre: registro.nombre,
+            salida: registro.salida,
+            entrada: registro.entrada,
+            tiempoTotal: registro.tiempoTotal
+
+        });
+
+    });
+
+    // Estilo encabezados
+    worksheet.getRow(1).eachCell((cell) => {
+
+        cell.font = {
+            bold: true,
+            color: { argb: "FFFFFFFF" },
+            size: 12
+        };
+
+        cell.fill = {
+            type: "pattern",
+            pattern: "solid",
+            fgColor: { argb: "1F4E78" } // Azul oscuro
+        };
+
+        cell.alignment = {
+            vertical: "middle",
+            horizontal: "center"
+        };
+
+        cell.border = {
+
+            top: { style: "thin" },
+            left: { style: "thin" },
+            bottom: { style: "thin" },
+            right: { style: "thin" }
+
+        };
+
+    });
+
+    // Bordes y alineación para todas las filas
+    worksheet.eachRow((row, rowNumber) => {
+
+        row.eachCell((cell) => {
+
+            cell.alignment = {
+                vertical: "middle",
+                horizontal: "center"
+            };
+
+            cell.border = {
+
+                top: { style: "thin" },
+                left: { style: "thin" },
+                bottom: { style: "thin" },
+                right: { style: "thin" }
+
+            };
+
+        });
+
+    });
+
+    // Congelar encabezados
+    worksheet.views = [
+        {
+            state: "frozen",
+            ySplit: 1
+        }
+    ];
+
+    // Descargar archivo
+    const buffer = await workbook.xlsx.writeBuffer();
+
+    // Obtener fecha actual
+    const fechaActual = new Date();
+
+    // Día
+    const dia = String(
+        fechaActual.getDate()
+    ).padStart(2, "0");
+
+    // Mes
+    const mes = String(
+        fechaActual.getMonth() + 1
+    ).padStart(2, "0");
+
+    // Año
+    const anio = fechaActual.getFullYear();
+
+    // Nombre final
+    const nombreArchivo =
+        `registro_comidas_${dia}-${mes}-${anio}.xlsx`;
 
     // Descargar
-    XLSX.writeFile(
-        libro,
-        "registro_comidas.xlsx"
+    saveAs(
+        new Blob([buffer]),
+        nombreArchivo
     );
 
 });
