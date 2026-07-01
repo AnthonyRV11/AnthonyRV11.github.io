@@ -672,6 +672,65 @@ let empleados = [
     gafete: "8923417",
     nombre: "STEVEN RODOLFO BOLAÑOS RÍOS"
 },
+{
+    gafete: "9080972",
+    nombre: "ESTEBAN LOPEZ"
+},
+
+{
+    gafete: "9080459",
+    nombre: "FINLANDER ALTAMARINO"
+},
+
+{
+    gafete: "9080251",
+    nombre: "GEINER ARCE LORÍA"
+},
+
+{
+    gafete: "8275781",
+    nombre: "JOSE EDUARDO BARRIENTOS ALFARO"
+},
+
+{
+    gafete: "9080276",
+    nombre: "LUIS GABRIEL CHACON HERNANDEZ"
+},
+
+{
+    gafete: "9080271",
+    nombre: "SEBASTIAN MORA BRIZUELA"
+},
+
+{
+    gafete: "9080256",
+    nombre: "WISTON RONALDO GUILLEN REYES"
+},
+
+{
+    gafete: "9079422",
+    nombre: "JADER JOSE FLORES TORRES"
+},
+
+{
+    gafete: "9078069",
+    nombre: "CRISTOPHER ANTONIO ZAMORA HERNANDEZ"
+},
+
+{
+    gafete: "9077840",
+    nombre: "DEYRIN ARIEL MONZÓN REYES"
+},
+
+{
+    gafete: "9076715",
+    nombre: "GUSTAVO ADOLFO SANDOVAL PEÑARANDA"
+},
+
+{
+    gafete: "9081079",
+    nombre: "JONATHAN GOMEZ"
+}
 ];
 
 const empleadosGuardados =
