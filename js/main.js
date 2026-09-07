@@ -24,713 +24,577 @@ class Empleado {
 let empleados = [
 
     {
-        gafete: "9060954",
-        nombre: "EDDY ADRIAN ESTRADA RAMÍREZ"
-    },
-
-    {
-        gafete: "9076268",
-        nombre: "EMMANUEL MONTALBAN GARCIA"
-    },
-
-    {
-        gafete: "9069040",
-        nombre: "JUNIOR CASTRO ARGUEDAS"
-    },
-
-    {
-        gafete: "8977197",
-        nombre: "JOEL ARIEL URBINA MONTALBAN"
-    },
-
-    {
-        gafete: "9066313",
-        nombre: "JEIKOL JUNAIKEL LEAL SANDOVAL"
-    },
-
-    {
-        gafete: "9068260",
-        nombre: "JOSE AUGUSTO RUBI ALVAREZ"
-    },
-
-    {
-        gafete: "9068343",
-        nombre: "JULIO CESAR VARGAS HERRERA"
-    },
-
-    {
-        gafete: "9066275",
-        nombre: "KERVIN ANDREY JIMENEZ FUENTES"
-    },
-
-    {
-        gafete: "9066363",
-        nombre: "KEVIN JESUS PICADO MENDOZA"
-    },
-
-    {
-        gafete: "9067392",
-        nombre: "MINOR ANTONIO CORTES LOPEZ"
-    },
-
-    {
-        gafete: "9067445",
-        nombre: "OSIEL ALEJANDRO LABORDE BATISTA"
-    },
-
-    {
-        gafete: "9069038",
-        nombre: "RAUDEL BARRIOS PÉREZ"
-    },
-
-    {
-        gafete: "8951965",
-        nombre: "JOSUE ANTONIO FLORES MARTINEZ"
-    },
-
-    {
-        gafete: "9046610",
-        nombre: "ANTHONY JOSUE RODRIGUEZ VALVERDE"
-    },
-
-    {
-        gafete: "8948834",
-        nombre: "ELDER RIVAS RAMIREZ"
-    },
-
-    {
-        gafete: "7778643",
-        nombre: "JEINER ANDRES SANCHEZ AGUERO"
-    },
-
-    {
-        gafete: "8281702",
-        nombre: "DEIVER JESÚS MORENO ARAUZ"
-    },
-
-    {
-        gafete: "8334719",
-        nombre: "EMIGDIO JAVIER ESPINOZA NOINDICAOTRO"
-    },
-
-    {
-        gafete: "8951968",
-        nombre: "JUAN BAUTISTA GOMEZ CASTRO"
-    },
-
-    {
-        gafete: "8965020",
-        nombre: "RICARDO ENRIQUE PENA PENA"
-    },
-
-    {
-        gafete: "8964182",
-        nombre: "EDGAR LEANDRO SILES VARGAS"
-    },
-
-    {
-        gafete: "7877560",
-        nombre: "YOJAN ARIEL LOPEZ ALVARADO"
-    },
-
-    {
-        gafete: "9051638",
-        nombre: "ANDRES CAMBRONERO ALFARO"
-    },
-
-    {
-        gafete: "9050149",
-        nombre: "ALEXANDER GUTIERREZ POVEDA"
-    },
-
-    {
-        gafete: "8333826",
-        nombre: "ALEXIS LOPEZ GUDIEL"
-    },
-
-    {
-        gafete: "9042793",
-        nombre: "BYRON ANTONIO CRUZ DAVILA"
-    },
-
-    {
-        gafete: "9055307",
-        nombre: "BYRON DAVID FLORES TALAVERA"
-    },
-
-    {
-        gafete: "9043555",
-        nombre: "BRYAN ALCIDES RODRIGUEZ NUÑEZ"
-    },
-
-    {
-        gafete: "8958291",
-        nombre: "BRANDON STEVEN SMITH DAVILA"
-    },
-
-    {
-        gafete: "9052764",
-        nombre: "CRISTIAN ALONSO ALVAREZ MORERA"
-    },
-
-    {
-        gafete: "9064944",
-        nombre: "CARLOS FRANCISCO AVILES TALAVERA"
-    },
-
-    {
-        gafete: "9064948",
-        nombre: "CARLOS DANIEL DIAZ REYES"
-    },
-
-    {
-        gafete: "9021674",
-        nombre: "DYLAN LEONARDO VARGAS TORRES"
-    },
-
-    {
-        gafete: "9051297",
-        nombre: "EDSSON SAMIR JIRON CABRERA"
-    },
-
-    {
-        gafete: "8252490",
-        nombre: "EVER ZEAS PIZARRO"
-    },
-
-    {
-        gafete: "9016576",
-        nombre: "FRANCISCO JAVIER ALEMAN PAVÓN"
-    },
-
-    {
-        gafete: "9034892",
-        nombre: "FREDDY JOSÉ BONILLA MORALES"
-    },
-
-    {
-        gafete: "8996436",
-        nombre: "FRANKLIN JAVIER RIVERA MIRANDA"
-    },
-
-    {
-        gafete: "8973291",
-        nombre: "FRANCISCO GERARDO VASQUEZ ROJAS"
-    },
-
-    {
-        gafete: "7776900",
-        nombre: "GUSTAVO TORRENTES SOLORZANO"
-    },
-
-    {
-        gafete: "9074396",
-        nombre: "ELIDER MAURICIO ARIAS PICADO"
-    },
-
-    {
-        gafete: "9076837",
-        nombre: "HAYKEL ROBERQUIES HERNANDEZ MORA"
-    },
-
-    {
-        gafete: "9077758",
-        nombre: "BRYAN ESTEBAN RODRIGUEZ PEREIRA"
-    },
-
-    {
-        gafete: "9077817",
-        nombre: "MANFRED STEVE MORENO MENDOZA"
-    },
-
-    {
-        gafete: "7779134",
-        nombre: "DAVID MONTERO"
-    },
-
-    {
-        gafete: "8936060",
-        nombre: "JESUS ESQUIVEL ENRIQUEZ"
-    },
-
-    {
-        gafete: "9021641",
-        nombre: "KEYLOR NOE CASTILLO CERDAS"
-    },
-
-    {
-        gafete: "9011919",
-        nombre: "KATHERINE VALEZCKA QUINTERO HERNANDEZ"
-    },
-
-    {
-        gafete: "9066016",
-        nombre: "ÓSCAR ADRIÁN MONGE ALFARO"
-    },
-
-    {
-        gafete: "8331720",
-        nombre: "DENILSON PALACIOS RIZO"
-    },
-
-    {
-        gafete: "7770106",
-        nombre: "ROLANDO ARAYA MONTERO"
-    },
-
-    {
-        gafete: "8908402",
-        nombre: "ALEJANDRO GONZALEZ QUIROS"
-    },
-
-    {
-        gafete: "8948764",
-        nombre: "ALEJANDRO MENA RAMIREZ"
-    },
-
-    {
-        gafete: "9051148",
-        nombre: "EDGAR EDUARDO SOLÍS BALITÁN"
-    },
-
-    {
-        gafete: "8947333",
-        nombre: "HENRY CERDAS CASCANTE"
-    },
-
-    {
-        gafete: "8175452",
-        nombre: "GERALD ZAMORA CARMONA"
-    },
-
-    {
-        gafete: "8951010",
-        nombre: "HECTOR LORIA AGUILAR"
-    },
-
-    {
-        gafete: "9034760",
-        nombre: "IAN AHMED BLANCO GONZALEZ"
-    },
-
-    {
-        gafete: "9015526",
-        nombre: "JOSEPH ANDRES BRICEÑO ROJAS"
-    },
-
-    {
-        gafete: "8961731",
-        nombre: "JUAN CARLOS DIAZ CAMPOS"
-    },
-
-    {
-        gafete: "8973523",
-        nombre: "JORDAN JOSUE HERNANDEZ ARIAS"
-    },
-
-    {
-        gafete: "9003895",
-        nombre: "JOARDIN VIDAL HERNANDEZ DAVILA"
-    },
-
-    {
-        gafete: "9016544",
-        nombre: "JOSE PABLO HERNANDEZ MOYA"
-    },
-
-    {
-        gafete: "9055562",
-        nombre: "JOSE ANDRES MARTINEZ MENDOZA"
-    },
-
-    {
-        gafete: "9054791",
-        nombre: "JOHAN ALEJANDRO QUIROS TRIGUUERO"
-    },
-
-    {
-        gafete: "7971124",
-        nombre: "LUIS EDUARDO SEGURA VILLALOBOS"
-    },
-
-    {
-        gafete: "9010912",
-        nombre: "MARIO ENRRIQUE HURTADO NOINDICAOTRO"
-    },
-
-    {
-        gafete: "8960068",
-        nombre: "MIKEL STIVEN JARQUIN GONZALEZ"
-    },
-
-    {
-        gafete: "9034884",
-        nombre: "MICHAEL JOSUÉ SOLÍS OVIEDO"
-    },
-
-    {
-        gafete: "9051275",
-        nombre: "NELTZER ARCELIO SANCHEZ OBANDO"
-    },
-
-    {
-        gafete: "8947848",
-        nombre: "OSCAR ARIAS BADILLA"
-    },
-
-    {
-        gafete: "9046588",
-        nombre: "PABLO JOSE PEREZ JARQUIN"
-    },
-
-    {
-        gafete: "9037371",
-        nombre: "RODOLFO JOSUE BOLANOS RIOS"
-    },
-
-    {
-        gafete: "9041484",
-        nombre: "ROGELIO ALBERTO BRENES RUIZ"
-    },
-
-    {
-        gafete: "7779113",
-        nombre: "RODOLFO ANTONIO CHINCHILLA MURILLO"
-    },
-
-    {
-        gafete: "8961128",
-        nombre: "RANDALL MAURICIO JIMENEZ ORTIZ"
-    },
-
-    {
-        gafete: "8938854",
-        nombre: "RICARDO PACHECO BARRANTES"
-    },
-
-    {
-        gafete: "9021638",
-        nombre: "ROGER RAFAEL RIVERA PEREIRA"
-    },
-
-    {
-        gafete: "9052726",
-        nombre: "REYNER MAURICIO ROCHA COREA"
-    },
-
-    {
-        gafete: "9016684",
-        nombre: "WILLIAM ALBERTO JIMENEZ ARROYO"
-    },
-
-    {
-        gafete: "9046619",
-        nombre: "WARDY LOPEZ BARAHONA"
-    },
-
-    {
-        gafete: "9035086",
-        nombre: "YANIER AVILES LABACENO"
-    },
-
-    {
-        gafete: "8994027",
-        nombre: "JUAN ORLANDO ALVARADO VARGAS"
-    },
-
-    {
-        gafete: "8146851",
-        nombre: "ROLANDO DE JESUS SEGURA ALVAREZ"
-    },
-
-    {
-        gafete: "9045564",
-        nombre: "FRANCISCO ANTONIO SUAZO LÓPEZ"
-    },
-
-    {
-        gafete: "9066379",
-        nombre: "BRYAN JOSE ALEMÁN MORA"
-    },
-
-    {
-        gafete: "9043249",
-        nombre: "KEVIN JOSE MEDAL ZAPATA"
-    },
-
-    {
-        gafete: "9036299",
-        nombre: "MIGUEL ANTONIO GOMEZ GARCIA"
-    },
-
-    {
-        gafete: "9032358",
-        nombre: "YOSVANY DEL RISCO SEDEÑO"
-    },
-
-    {
-        gafete: "9059757",
-        nombre: "RUBÉN MARIA GARCIA AGUILAR"
-    },
-    {
-        gafete: "9073763",
-        nombre: "FRANKLIN MONTIEL ARGUEDAS"
-    },
-
-    {
-        gafete: "7771878",
-        nombre: "JEFFERSON CEDEÑO VARGAS"
-    },
-
-    {
-        gafete: "7776940",
-        nombre: "JUAN CARLOS ROJAS QUESADA"
-    },
-
-    {
-        gafete: "7782507",
-        nombre: "JESSICA MARIA ALPIZAR SOLIS"
-    },
-
-    {
-        gafete: "8305203",
-        nombre: "JOSE MORA BRENES"
-    },
-
-    {
-        gafete: "7770109",
-        nombre: "CARLOS FRANCISCO LOPEZ ARRIETA"
-    },
-
-    {
-        gafete: "8924268",
-        nombre: "FELIX FLOTES MONTANO"
-    },
-
-    {
-        gafete: "8948086",
-        nombre: "IRIS LISSETH CHACON NOINDICAOTRO"
-    },
-
-    {
-        gafete: "7777455",
-        nombre: "JORBIN PEREZ POMARES"
-    },
-
-    {
-        gafete: "7784925",
-        nombre: "JUAN GABRIEL HERNANDEZ RIVERA"
-    },
-
-    {
-        gafete: "9076159",
-        nombre: "ANTHONY DAVID MORA CHINCHILLA"
-    },
-
-    {
-        gafete: "8972769",
-        nombre: "CARLOS ALBERTO GARCIA VARGAS"
-    },
-
-    {
-        gafete: "8986687",
-        nombre: "DAVID MANUEL JAEN SANCHEZ"
-    },
-
-    {
-        gafete: "9008904",
-        nombre: "JESSICA BARQUERO QUIROS"
-    },
-
-    {
-        gafete: "9045350",
-        nombre: "JULIO JOSE LOPEZ MURILLO"
-    },
-
-    {
-        gafete: "9075422",
-        nombre: "ALEXANDER CRUZ SALGUERA"
-    },
-
-    {
-        gafete: "9043320",
-        nombre: "FRANKLING JAVIER CAMPOS NOINDICAOTRO"
-    },
-
-    {
-        gafete: "9050506",
-        nombre: "MALENA AMAYA RODRIGUEZ"
-    },
-
-    {
-        gafete: "9052884",
-        nombre: "MARIBEL DAYANA LUQUEZ PALACIO"
-    },
-
-    {
-        gafete: "9076141",
-        nombre: "NAZARETH ZIDANE MAYORQUÍN JIMÉNEZ"
-    },
-
-    {
-        gafete: "9054238",
-        nombre: "JOSÉ ANDRÉS GONZÁLEZ GONZÁLEZ"
-    },
-
-    {
-        gafete: "9054258",
-        nombre: "TANIA YULIETH HUERTA HERNÁNDEZ"
-    },
-
-    {
-        gafete: "9055539",
-        nombre: "MARIA VANESSA AVALOS MORALES"
-    },
-
-    {
-        gafete: "9055543",
-        nombre: "ALISON DANIELA RUIZ JIMENEZ"
-    },
-
-    {
-        gafete: "9076778",
-        nombre: "JOSE EDUARDO COLE WESLEY"
-    },
-
-    {
-        gafete: "9066246",
-        nombre: "LUIS MANUEL IZAGUIRRE HERNANDEZ"
-    },
-
-    {
-        gafete: "9066297",
-        nombre: "CRISTOPHER ANDRÉS GUELL GONZÁLEZ"
-    },
-
-    {
-        gafete: "9067533",
-        nombre: "FRANK DANIEL LOSADA GONZÁLEZ"
-    },
-
-    {
-        gafete: "9068409",
-        nombre: "LIRIBET MONTOYA FERNÁNDEZ"
-    },
-
-    {
-        gafete: "9069397",
-        nombre: "ELIAM JOSUE RAMIREZ LUNA"
-    },
-
-    {
-        gafete: "9069051",
-        nombre: "HAZZLER EMMANUEL PINEDA CABRERA"
-    },
-    {
-    gafete: "9014036",
-    nombre: "HARVIN DE JESUS GARCIA RAMOS"
-},
-//Usuarios pendientes a validar 
-{
-    gafete: "9055554",
-    nombre: "IAN JESUS SOBRINO MEDINA"
-},
-
-{
-    gafete: "9015016",
-    nombre: "ISAIAS FRANCISCO ALPIZAR OGLIVIE"
-},
-
-{
-    gafete: "9042882",
-    nombre: "JEFFERSON YURIDY MENDOZA RUGAMA"
-},
-
-{
-    gafete: "9031463",
-    nombre: "JORGE ANDRIAN RODRIGUEZ CAMPOS"
-},
-
-{
-    gafete: "9042578",
-    nombre: "JOSE ANGEL AGUERO RAMIREZ"
+    gafete: "8908402",
+    nombre: "ALEJANDRO GONZALEZ QUIROS"
 },
 {
-    gafete: "9015172",
-    nombre: "KEYLOR DE LOS ANGELES MADRIGAL AGUILAR"
-},
-
-{
-    gafete: "9032573",
-    nombre: "MANUEL REINALDO SALAS ACUNA"
+    gafete: "8948764",
+    nombre: "ALEJANDRO MENA RAMIREZ"
 },
 {
     gafete: "9005339",
     nombre: "ALEXANDER ANTONIO AGUERO SIBAJA"
 },
 {
-    gafete: "8923417",
-    nombre: "STEVEN RODOLFO BOLAÑOS RÍOS"
+    gafete: "9075422",
+    nombre: "ALEXANDER CRUZ SALGUERA"
+},
+{
+    gafete: "9050149",
+    nombre: "ALEXANDER GUTIERREZ POVEDA"
+},
+{
+    gafete: "8333826",
+    nombre: "ALEXIS LOPEZ GUDIEL"
+},
+{
+    gafete: "9055543",
+    nombre: "ALISON DANIELA RUIZ JIMENEZ"
+},
+{
+    gafete: "9051638",
+    nombre: "ANDRES CAMBRONERO ALFARO"
+},
+{
+    gafete: "9076159",
+    nombre: "ANTHONY DAVID MORA CHINCHILLA"
+},
+{
+    gafete: "9046610",
+    nombre: "ANTHONY JOSUE RODRIGUEZ VALVERDE"
+},
+{
+    gafete: "8958291",
+    nombre: "BRANDON STEVEN SMITH DAVILA"
+},
+{
+    gafete: "9043555",
+    nombre: "BRYAN ALCIDES RODRIGUEZ NUÑEZ"
+},
+{
+    gafete: "9077758",
+    nombre: "BRYAN ESTEBAN RODRIGUEZ PEREIRA"
+},
+{
+    gafete: "9066379",
+    nombre: "BRYAN JOSE ALEMÁN MORA"
+},
+{
+    gafete: "9042793",
+    nombre: "BYRON ANTONIO CRUZ DAVILA"
+},
+{
+    gafete: "9055307",
+    nombre: "BYRON DAVID FLORES TALAVERA"
+},
+{
+    gafete: "8972769",
+    nombre: "CARLOS ALBERTO GARCIA VARGAS"
+},
+{
+    gafete: "9064948",
+    nombre: "CARLOS DANIEL DIAZ REYES"
+},
+{
+    gafete: "9064944",
+    nombre: "CARLOS FRANCISCO AVILES TALAVERA"
+},
+{
+    gafete: "7770109",
+    nombre: "CARLOS FRANCISCO LOPEZ ARRIETA"
+},
+{
+    gafete: "9052764",
+    nombre: "CRISTIAN ALONSO ALVAREZ MORERA"
+},
+{
+    gafete: "9066297",
+    nombre: "CRISTOPHER ANDRÉS GUELL GONZÁLEZ"
+},
+{
+    gafete: "9078069",
+    nombre: "CRISTOPHER ANTONIO ZAMORA HERNANDEZ"
+},
+{
+    gafete: "8986687",
+    nombre: "DAVID MANUEL JAEN SANCHEZ"
+},
+{
+    gafete: "7779134",
+    nombre: "DAVID MONTERO"
+},
+{
+    gafete: "8281702",
+    nombre: "DEIVER JESÚS MORENO ARAUZ"
+},
+{
+    gafete: "8331720",
+    nombre: "DENILSON PALACIOS RIZO"
+},
+{
+    gafete: "9077840",
+    nombre: "DEYRIN ARIEL MONZÓN REYES"
+},
+{
+    gafete: "9021674",
+    nombre: "DYLAN LEONARDO VARGAS TORRES"
+},
+{
+    gafete: "9060954",
+    nombre: "EDDY ADRIAN ESTRADA RAMÍREZ"
+},
+{
+    gafete: "9051148",
+    nombre: "EDGAR EDUARDO SOLÍS BALITÁN"
+},
+{
+    gafete: "8964182",
+    nombre: "EDGAR LEANDRO SILES VARGAS"
+},
+{
+    gafete: "9051297",
+    nombre: "EDSSON SAMIR JIRON CABRERA"
+},
+{
+    gafete: "8948834",
+    nombre: "ELDER RIVAS RAMIREZ"
+},
+{
+    gafete: "9069397",
+    nombre: "ELIAM JOSUE RAMIREZ LUNA"
+},
+{
+    gafete: "9074396",
+    nombre: "ELIDER MAURICIO ARIAS PICADO"
+},
+{
+    gafete: "8334719",
+    nombre: "EMIGDIO JAVIER ESPINOZA NOINDICAOTRO"
+},
+{
+    gafete: "9076268",
+    nombre: "EMMANUEL MONTALBAN GARCIA"
 },
 {
     gafete: "9080972",
     nombre: "ESTEBAN LOPEZ"
 },
-
+{
+    gafete: "8252490",
+    nombre: "EVER ZEAS PIZARRO"
+},
+{
+    gafete: "8924268",
+    nombre: "FELIX FLOTES MONTANO"
+},
 {
     gafete: "9080459",
     nombre: "FINLANDER ALTAMARINO"
 },
-
+{
+    gafete: "9045564",
+    nombre: "FRANCISCO ANTONIO SUAZO LÓPEZ"
+},
+{
+    gafete: "8973291",
+    nombre: "FRANCISCO GERARDO VASQUEZ ROJAS"
+},
+{
+    gafete: "9016576",
+    nombre: "FRANCISCO JAVIER ALEMAN PAVÓN"
+},
+{
+    gafete: "9067533",
+    nombre: "FRANK DANIEL LOSADA GONZÁLEZ"
+},
+{
+    gafete: "8996436",
+    nombre: "FRANKLIN JAVIER RIVERA MIRANDA"
+},
+{
+    gafete: "9073763",
+    nombre: "FRANKLIN MONTIEL ARGUEDAS"
+},
+{
+    gafete: "9043320",
+    nombre: "FRANKLING JAVIER CAMPOS NOINDICAOTRO"
+},
+{
+    gafete: "9034892",
+    nombre: "FREDDY JOSÉ BONILLA MORALES"
+},
 {
     gafete: "9080251",
     nombre: "GEINER ARCE LORÍA"
 },
-
 {
-    gafete: "8275781",
-    nombre: "JOSE EDUARDO BARRIENTOS ALFARO"
+    gafete: "8175452",
+    nombre: "GERALD ZAMORA CARMONA"
 },
-
-{
-    gafete: "9080276",
-    nombre: "LUIS GABRIEL CHACON HERNANDEZ"
-},
-
-{
-    gafete: "9080271",
-    nombre: "SEBASTIAN MORA BRIZUELA"
-},
-
-{
-    gafete: "9080256",
-    nombre: "WISTON RONALDO GUILLEN REYES"
-},
-
-{
-    gafete: "9079422",
-    nombre: "JADER JOSE FLORES TORRES"
-},
-
-{
-    gafete: "9078069",
-    nombre: "CRISTOPHER ANTONIO ZAMORA HERNANDEZ"
-},
-
-{
-    gafete: "9077840",
-    nombre: "DEYRIN ARIEL MONZÓN REYES"
-},
-
 {
     gafete: "9076715",
     nombre: "GUSTAVO ADOLFO SANDOVAL PEÑARANDA"
 },
-
+{
+    gafete: "7776900",
+    nombre: "GUSTAVO TORRENTES SOLORZANO"
+},
+{
+    gafete: "9014036",
+    nombre: "HARVIN DE JESUS GARCIA RAMOS"
+},
+{
+    gafete: "9076837",
+    nombre: "HAYKEL ROBERQUIES HERNANDEZ MORA"
+},
+{
+    gafete: "9069051",
+    nombre: "HAZZLER EMMANUEL PINEDA CABRERA"
+},
+{
+    gafete: "8951010",
+    nombre: "HECTOR LORIA AGUILAR"
+},
+{
+    gafete: "8947333",
+    nombre: "HENRY CERDAS CASCANTE"
+},
+{
+    gafete: "9034760",
+    nombre: "IAN AHMED BLANCO GONZALEZ"
+},
+{
+    gafete: "9055554",
+    nombre: "IAN JESUS SOBRINO MEDINA"
+},
+{
+    gafete: "8948086",
+    nombre: "IRIS LISSETH CHACON NOINDICAOTRO"
+},
+{
+    gafete: "9015016",
+    nombre: "ISAIAS FRANCISCO ALPIZAR OGLIVIE"
+},
+{
+    gafete: "9079422",
+    nombre: "JADER JOSE FLORES TORRES"
+},
+{
+    gafete: "7771878",
+    nombre: "JEFFERSON CEDEÑO VARGAS"
+},
+{
+    gafete: "9042882",
+    nombre: "JEFFERSON YURIDY MENDOZA RUGAMA"
+},
+{
+    gafete: "9066313",
+    nombre: "JEIKOL JUNAIKEL LEAL SANDOVAL"
+},
+{
+    gafete: "7778643",
+    nombre: "JEINER ANDRES SANCHEZ AGUERO"
+},
+{
+    gafete: "9008904",
+    nombre: "JESSICA BARQUERO QUIROS"
+},
+{
+    gafete: "7782507",
+    nombre: "JESSICA MARIA ALPIZAR SOLIS"
+},
+{
+    gafete: "8936060",
+    nombre: "JESUS ESQUIVEL ENRIQUEZ"
+},
+{
+    gafete: "9003895",
+    nombre: "JOARDIN VIDAL HERNANDEZ DAVILA"
+},
+{
+    gafete: "8977197",
+    nombre: "JOEL ARIEL URBINA MONTALBAN"
+},
+{
+    gafete: "9054791",
+    nombre: "JOHAN ALEJANDRO QUIROS TRIGUUERO"
+},
 {
     gafete: "9081079",
     nombre: "JONATHAN GOMEZ"
-}
+},
+{
+    gafete: "7777455",
+    nombre: "JORBIN PEREZ POMARES"
+},
+{
+    gafete: "8973523",
+    nombre: "JORDAN JOSUE HERNANDEZ ARIAS"
+},
+{
+    gafete: "9031463",
+    nombre: "JORGE ANDRIAN RODRIGUEZ CAMPOS"
+},
+{
+    gafete: "9055562",
+    nombre: "JOSE ANDRES MARTINEZ MENDOZA"
+},
+{
+    gafete: "9042578",
+    nombre: "JOSE ANGEL AGUERO RAMIREZ"
+},
+{
+    gafete: "9068260",
+    nombre: "JOSE AUGUSTO RUBI ALVAREZ"
+},
+{
+    gafete: "8275781",
+    nombre: "JOSE EDUARDO BARRIENTOS ALFARO"
+},
+{
+    gafete: "9076778",
+    nombre: "JOSE EDUARDO COLE WESLEY"
+},
+{
+    gafete: "8305203",
+    nombre: "JOSE MORA BRENES"
+},
+{
+    gafete: "9016544",
+    nombre: "JOSE PABLO HERNANDEZ MOYA"
+},
+{
+    gafete: "9015526",
+    nombre: "JOSEPH ANDRES BRICEÑO ROJAS"
+},
+{
+    gafete: "8951965",
+    nombre: "JOSUE ANTONIO FLORES MARTINEZ"
+},
+{
+    gafete: "9054238",
+    nombre: "JOSÉ ANDRÉS GONZÁLEZ GONZÁLEZ"
+},
+{
+    gafete: "8951968",
+    nombre: "JUAN BAUTISTA GOMEZ CASTRO"
+},
+{
+    gafete: "8961731",
+    nombre: "JUAN CARLOS DIAZ CAMPOS"
+},
+{
+    gafete: "7776940",
+    nombre: "JUAN CARLOS ROJAS QUESADA"
+},
+{
+    gafete: "7784925",
+    nombre: "JUAN GABRIEL HERNANDEZ RIVERA"
+},
+{
+    gafete: "8994027",
+    nombre: "JUAN ORLANDO ALVARADO VARGAS"
+},
+{
+    gafete: "9068343",
+    nombre: "JULIO CESAR VARGAS HERRERA"
+},
+{
+    gafete: "9045350",
+    nombre: "JULIO JOSE LOPEZ MURILLO"
+},
+{
+    gafete: "9069040",
+    nombre: "JUNIOR CASTRO ARGUEDAS"
+},
+{
+    gafete: "9011919",
+    nombre: "KATHERINE VALEZCKA QUINTERO HERNANDEZ"
+},
+{
+    gafete: "9066275",
+    nombre: "KERVIN ANDREY JIMENEZ FUENTES"
+},
+{
+    gafete: "9066363",
+    nombre: "KEVIN JESUS PICADO MENDOZA"
+},
+{
+    gafete: "9043249",
+    nombre: "KEVIN JOSE MEDAL ZAPATA"
+},
+{
+    gafete: "9015172",
+    nombre: "KEYLOR DE LOS ANGELES MADRIGAL AGUILAR"
+},
+{
+    gafete: "9021641",
+    nombre: "KEYLOR NOE CASTILLO CERDAS"
+},
+{
+    gafete: "9068409",
+    nombre: "LIRIBET MONTOYA FERNÁNDEZ"
+},
+{
+    gafete: "7971124",
+    nombre: "LUIS EDUARDO SEGURA VILLALOBOS"
+},
+{
+    gafete: "9080276",
+    nombre: "LUIS GABRIEL CHACON HERNANDEZ"
+},
+{
+    gafete: "9066246",
+    nombre: "LUIS MANUEL IZAGUIRRE HERNANDEZ"
+},
+{
+    gafete: "9050506",
+    nombre: "MALENA AMAYA RODRIGUEZ"
+},
+{
+    gafete: "9077817",
+    nombre: "MANFRED STEVE MORENO MENDOZA"
+},
+{
+    gafete: "9032573",
+    nombre: "MANUEL REINALDO SALAS ACUNA"
+},
+{
+    gafete: "9055539",
+    nombre: "MARIA VANESSA AVALOS MORALES"
+},
+{
+    gafete: "9052884",
+    nombre: "MARIBEL DAYANA LUQUEZ PALACIO"
+},
+{
+    gafete: "9010912",
+    nombre: "MARIO ENRRIQUE HURTADO NOINDICAOTRO"
+},
+{
+    gafete: "9034884",
+    nombre: "MICHAEL JOSUÉ SOLÍS OVIEDO"
+},
+{
+    gafete: "9036299",
+    nombre: "MIGUEL ANTONIO GOMEZ GARCIA"
+},
+{
+    gafete: "8960068",
+    nombre: "MIKEL STIVEN JARQUIN GONZALEZ"
+},
+{
+    gafete: "9067392",
+    nombre: "MINOR ANTONIO CORTES LOPEZ"
+},
+{
+    gafete: "9076141",
+    nombre: "NAZARETH ZIDANE MAYORQUÍN JIMÉNEZ"
+},
+{
+    gafete: "9051275",
+    nombre: "NELTZER ARCELIO SANCHEZ OBANDO"
+},
+{
+    gafete: "8947848",
+    nombre: "OSCAR ARIAS BADILLA"
+},
+{
+    gafete: "9067445",
+    nombre: "OSIEL ALEJANDRO LABORDE BATISTA"
+},
+{
+    gafete: "9046588",
+    nombre: "PABLO JOSE PEREZ JARQUIN"
+},
+{
+    gafete: "8961128",
+    nombre: "RANDALL MAURICIO JIMENEZ ORTIZ"
+},
+{
+    gafete: "9069038",
+    nombre: "RAUDEL BARRIOS PÉREZ"
+},
+{
+    gafete: "9052726",
+    nombre: "REYNER MAURICIO ROCHA COREA"
+},
+{
+    gafete: "8965020",
+    nombre: "RICARDO ENRIQUE PENA PENA"
+},
+{
+    gafete: "8938854",
+    nombre: "RICARDO PACHECO BARRANTES"
+},
+{
+    gafete: "7779113",
+    nombre: "RODOLFO ANTONIO CHINCHILLA MURILLO"
+},
+{
+    gafete: "9037371",
+    nombre: "RODOLFO JOSUE BOLANOS RIOS"
+},
+{
+    gafete: "9041484",
+    nombre: "ROGELIO ALBERTO BRENES RUIZ"
+},
+{
+    gafete: "9021638",
+    nombre: "ROGER RAFAEL RIVERA PEREIRA"
+},
+{
+    gafete: "7770106",
+    nombre: "ROLANDO ARAYA MONTERO"
+},
+{
+    gafete: "8146851",
+    nombre: "ROLANDO DE JESUS SEGURA ALVAREZ"
+},
+{
+    gafete: "9059757",
+    nombre: "RUBÉN MARIA GARCIA AGUILAR"
+},
+{
+    gafete: "9080271",
+    nombre: "SEBASTIAN MORA BRIZUELA"
+},
+{
+    gafete: "8923417",
+    nombre: "STEVEN RODOLFO BOLAÑOS RÍOS"
+},
+{
+    gafete: "9054258",
+    nombre: "TANIA YULIETH HUERTA HERNÁNDEZ"
+},
+{
+    gafete: "9046619",
+    nombre: "WARDY LOPEZ BARAHONA"
+},
+{
+    gafete: "9016684",
+    nombre: "WILLIAM ALBERTO JIMENEZ ARROYO"
+},
+{
+    gafete: "9080256",
+    nombre: "WISTON RONALDO GUILLEN REYES"
+},
+{
+    gafete: "9035086",
+    nombre: "YANIER AVILES LABACENO"
+},
+{
+    gafete: "7877560",
+    nombre: "YOJAN ARIEL LOPEZ ALVARADO"
+},
+{
+    gafete: "9032358",
+    nombre: "YOSVANY DEL RISCO SEDEÑO"
+},
+{
+    gafete: "9066016",
+    nombre: "ÓSCAR ADRIÁN MONGE ALFARO"
+},
 ];
 
 const empleadosGuardados =
@@ -1089,32 +953,36 @@ btnExportar.addEventListener("click", async () => {
     // Crear hoja
     const worksheet = workbook.addWorksheet("Tiempos Comida");
 
+    // Obtener fecha actual
+    const fechaActual = new Date();
+
+    const dia = String(fechaActual.getDate()).padStart(2, "0");
+    const mes = String(fechaActual.getMonth() + 1).padStart(2, "0");
+    const anio = fechaActual.getFullYear();
+
+    // Formato de fecha para el Excel
+    const fechaHoy = `${dia}/${mes}/${anio}`;
+
     // Encabezados
     worksheet.columns = [
-
+        { header: "Fecha", key: "fecha", width: 15 },
         { header: "Gafete", key: "gafete", width: 18 },
-
         { header: "Nombre", key: "nombre", width: 45 },
-
         { header: "Hora de salida", key: "salida", width: 20 },
-
         { header: "Hora de entrada", key: "entrada", width: 20 },
-
         { header: "Tiempo total", key: "tiempoTotal", width: 18 }
-
     ];
 
     // Agregar registros
     registros.forEach(registro => {
 
         worksheet.addRow({
-
+            fecha: fechaHoy,
             gafete: registro.gafete,
             nombre: registro.nombre,
             salida: registro.salida,
             entrada: registro.entrada,
             tiempoTotal: registro.tiempoTotal
-
         });
 
     });
@@ -1131,7 +999,7 @@ btnExportar.addEventListener("click", async () => {
         cell.fill = {
             type: "pattern",
             pattern: "solid",
-            fgColor: { argb: "1F4E78" } // Azul oscuro
+            fgColor: { argb: "1F4E78" }
         };
 
         cell.alignment = {
@@ -1140,18 +1008,16 @@ btnExportar.addEventListener("click", async () => {
         };
 
         cell.border = {
-
             top: { style: "thin" },
             left: { style: "thin" },
             bottom: { style: "thin" },
             right: { style: "thin" }
-
         };
 
     });
 
     // Bordes y alineación para todas las filas
-    worksheet.eachRow((row, rowNumber) => {
+    worksheet.eachRow((row) => {
 
         row.eachCell((cell) => {
 
@@ -1161,12 +1027,10 @@ btnExportar.addEventListener("click", async () => {
             };
 
             cell.border = {
-
                 top: { style: "thin" },
                 left: { style: "thin" },
                 bottom: { style: "thin" },
                 right: { style: "thin" }
-
             };
 
         });
@@ -1184,23 +1048,7 @@ btnExportar.addEventListener("click", async () => {
     // Descargar archivo
     const buffer = await workbook.xlsx.writeBuffer();
 
-    // Obtener fecha actual
-    const fechaActual = new Date();
-
-    // Día
-    const dia = String(
-        fechaActual.getDate()
-    ).padStart(2, "0");
-
-    // Mes
-    const mes = String(
-        fechaActual.getMonth() + 1
-    ).padStart(2, "0");
-
-    // Año
-    const anio = fechaActual.getFullYear();
-
-    // Nombre final
+    // Nombre del archivo
     const nombreArchivo =
         `registro_comidas_${dia}-${mes}-${anio}.xlsx`;
 
@@ -1212,7 +1060,9 @@ btnExportar.addEventListener("click", async () => {
 
 });
 
+
 btnLimpiarTabla.addEventListener("click", () => {
+
     // Confirmación
     const confirmar = confirm(
         "¿Está seguro de limpiar todos los registros?"
@@ -1220,9 +1070,7 @@ btnLimpiarTabla.addEventListener("click", () => {
 
     // Si cancela
     if (!confirmar) {
-
         return;
-
     }
 
     // Limpiar arreglo
@@ -1236,6 +1084,8 @@ btnLimpiarTabla.addEventListener("click", () => {
 
     // Aviso
     alert("Sistema limpio");
-})
+
+});
+
 
 const tbody = document.querySelector("#tablaRegistros tbody");
